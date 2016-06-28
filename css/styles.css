@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/cork-board.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.bike {
+  margin: auto;
+  height: 650px;
+  width: 650px;
+  position: absolute;
+  top: 230px;
+  left: 260px;
+}
+
+.polaroid {
+  position: absolute;
+  top: 115px;
+  left: 130px;
+}
+
+.redpin {
+  height: 200px;
+  position: absolute;
+  top: 30px;
+  left: 400px;
+}
+
+/*.polaroid:before {
+  background-image: url("../img/red-pin.png");
+  position: absolute;
+  top: 30px;
+  left: 300px;
+}*/
